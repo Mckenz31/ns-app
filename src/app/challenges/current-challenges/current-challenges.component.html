@@ -1,3 +1,5 @@
 <StackLayout>
-    <Label text = "NativeScript Babe!!"></Label>
+    <TextField hint = "Title" [(ngModel)] = "enterText"></TextField>
+    <Button text = "Click" (tap) = "onClick1()"></Button>
+    <Label [text] = "publishText"></Label>
 </StackLayout>

@@ -8,4 +8,11 @@ import { Component } from "@angular/core";
     moduleId: module.id
 })
 
-export class CurrentChallengesComponent {}
+export class CurrentChallengesComponent {
+    enterText = "";
+    publishText = "";
+
+    onClick1(){
+        this.publishText = this.enterText;
+    }
+}
