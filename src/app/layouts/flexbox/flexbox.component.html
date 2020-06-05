@@ -1,0 +1,46 @@
+<!--CHECK THIS LINK : https://css-tricks.com/snippets/css/a-guide-to-flexbox/-->
+
+<FlexboxLayout flexWrap = "nowrap" justifyContent = "space-around" alignItems = "center" > <!--1)This is the default with respect to the flexDirection, it is basically
+    flexDirection = "row". 2)Secondly flexWrap = "nowrap" means that it puts the components/widgets into the
+    layout space provided overiding the original dimension given to each widgets.3)space-around (items are evenly distributed in the line with
+     equal space around them) 4) alignItemscenter - Gets or sets a value indicating how flex items are laid out along the cross axis on the current line.
+     You can think of it as the justifyContent version for the cross-axis (perpendicular to the main-axis).
+    "center" = (items are centered in the cross-axis) -->
+<!--
+<FlexboxLayout flexDirection = "row-reverse">
+<FlexboxLayout flexDirection = "column">
+<FlexboxLayout flexDirection = "column-reverse">
+
+<FlexboxLayout flexWrap = "wrap"> This maintains the dimensions of the widget and pushes it down to the
+    available region and does not squeeze the widgets like "nowrap"
+<FlexboxLayout flexWrap = "wrap-reverse"> Performs similar to wrap but arranges it in the reverse order.
+
+<FlexboxLayout justifyContent = "flex-start"> flex-start (items are packed toward the start line) default
+ flex-end (items are packed toward to end line)
+<FlexboxLayout justifyContent = "center"> center (items are centered along the line)
+<FlexboxLayout justifyContent = "space between"> space-between (items are evenly distributed in the line; first item is on the start line,
+     last item on the end line)
+
+<FlexboxLayout alignItems = "flex-start"> flex-start (cross-start margin edge of the items is placed on the cross-start line)
+<FlexboxLayout alignItems = "flex-end"> flex-end (cross-end margin edge of the items is placed on the cross-end line)
+<FlexboxLayout alignItems = "baseline"> baseline (items are aligned such as their baselines align)
+<FlexboxLayout alignItems = "stretch"> stretch (stretch to fill the container but still respect min-width/max-width). default
+
+    JUSTIFYCONTENT -> this property has no effect when there is only one line of flex items.
+<FlexboxLayout justifyContent = "flex-end"> flex-start (lines packed to the start of the container)
+<FlexboxLayout justifyContent = "flex-end"> flex-end (lines packed to the end of the container)
+<FlexboxLayout justifyContent = "flex-end"> center (lines packed to the center of the container)
+<FlexboxLayout justifyContent = "flex-end"> space-between (lines evenly distributed; the first line is at the start of the container
+     while the last one is at the end)
+<FlexboxLayout justifyContent = "flex-end"> space-around (lines evenly distributed with equal space between them)
+<FlexboxLayout justifyContent = "flex-end"> stretch (lines stretch to take up the remaining space) default This property has no
+    effect when the flexbox has only a single line.
+-->
+
+
+    <Label id=id1 text = "Item1" ></Label>
+    <Label id=id2 text = "Item2" ></Label>
+    <Label id=id3 text = "Item3" ></Label>
+</FlexboxLayout>
+
+
