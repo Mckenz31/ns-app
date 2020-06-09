@@ -2,8 +2,6 @@
 GridLayout{
     border-color:black;
     border-width: 8;
-
-    padding: 10;
 }
 /*
 Label{
@@ -22,6 +20,14 @@ Label{
 }
 #id3{
     background:green;
+
+}
+#id4{
+    background: blue;
+
+}
+#id5{
+    background: yellow;
 
 }
 
