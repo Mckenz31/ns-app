@@ -1,0 +1,27 @@
+/* Add mobile styles for the component here.  */
+GridLayout{
+    border-color:black;
+    border-width: 8;
+
+    padding: 10;
+}
+/*
+Label{
+    width: 20%;
+    height: 20%;
+}
+*/
+#id1{
+    background: crimson;
+
+
+}
+#id2{
+    background: pink;
+
+}
+#id3{
+    background:green;
+
+}
+
