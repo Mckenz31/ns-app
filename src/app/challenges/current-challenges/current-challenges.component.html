@@ -1,5 +1,5 @@
-<StackLayout>
-    <TextField class = "texthere" hint = "Title" [(ngModel)] = "enterText"></TextField>
-    <Button class = "btn" text = "Click" (tap) = "onClick1()"></Button>
-    <Label class = "title" [text] = "publishText"></Label>
-</StackLayout>
+<GridLayout rows = "100, 100" columns = "*,*">
+    <TextField class = "texthere" hint = "Title" [(ngModel)] = "enterText" row = 0 col = 0></TextField>
+    <Button class = "btn" text = "Click" (tap) = "onClick1()" row = 0 col = 1></Button>
+    <Label class = "title" [text] = "publishText"row = 1 col = 0 colSpan = 2></Label>
+</GridLayout>
