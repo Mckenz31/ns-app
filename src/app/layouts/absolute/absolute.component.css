@@ -1,0 +1,23 @@
+/* Add mobile styles for the component here.  */
+AbsoluteLayout{
+    border-color:black;
+    border-width: 8;
+    height: 100%;
+
+}
+
+Label{
+    width: 20%;
+    height: 20%;
+}
+
+#id1{
+    background: crimson;
+}
+#id2{
+    background: pink;
+}
+#id3{
+    background:green;
+}
+
