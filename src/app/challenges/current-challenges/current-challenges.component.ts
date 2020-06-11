@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 
 @Component ({
@@ -9,10 +9,8 @@ import { Component } from "@angular/core";
 })
 
 export class CurrentChallengesComponent {
-    enterText = "";
-    publishText = "";
 
-    onClick1(){
-        this.publishText = this.enterText;
-    }
+    @Input()   publishText = "";
+
+
 }

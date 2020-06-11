@@ -1,7 +1,8 @@
 
-<GridLayout>
-    <ns-current-challenges></ns-current-challenges>
-</GridLayout>
+<StackLayout>
+    <ns-challenges-edit (input) = "onChallengeInput($event)"></ns-challenges-edit>
+    <ns-current-challenges [publishText] = "enteredChallenge"></ns-current-challenges>
+</StackLayout>
 
 
 
