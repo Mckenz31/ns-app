@@ -1,4 +1,14 @@
-<StackLayout>
+<!-- <StackLayout>
     <Label class = "title" [text] = "Textbro" *ngFor = "let Textbro of publishText"></Label>
-</StackLayout>
+</StackLayout> -->
+
+<ListView [items] = "publishText" (itemTap) = "onItemTap()">
+    <ng-template let-publishText = "item" let-i = "index" >
+        <GridLayout rows="50,auto" columns="50,*">
+            <Label [text] = "i" row = "0" col = "0" rowSpan = 2></Label>
+            <Label [text] = "publishText" row = "0" col = "1"></Label>
+            <Label text = "Hello" row = "1" col = "1"></Label>
+        </GridLayout>
+    </ng-template>
+</ListView>
 
