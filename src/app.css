@@ -23,12 +23,12 @@ The following CSS rule changes the font size of all Buttons that have the
 Button.-primary {
     font-size: 18;
 }
-
+/*
 StackLayout {
     border-color: cornflowerblue;
     border-width: 8;
 
-}
+} */
 
 .btn {
     border-radius: 5;
