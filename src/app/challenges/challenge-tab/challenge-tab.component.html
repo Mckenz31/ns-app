@@ -1,0 +1,17 @@
+<ns-action-bar title="Challenges"></ns-action-bar>
+<TabView androidTabsPosition = "bottom" androidSelectedTabHighlightColor = "#7c015d"
+selectedTabTextColor = "#7c015d" >
+<!-- tabTextColor (corresponding CSS property tab-text-color ) - Changes the text color for the tabs. -->
+<!-- selectedTabTextColor (corresponding CSS property selected-tab-text-color ) - Changes the color of the text for the selected tab. -->
+<!-- tabBackgroundColor (corresponding CSS property tab-background-color) - Sets the background color of the tabs. -->
+<!-- tabTextFontSize (corresponding CSS property tab-text-font-size) - Sets the font size of the tabs. -->
+<!-- textTransform (corresponding CSS property text-transform) - Sets the text transform individually for every TabViewItem. Value options: capitalize, lowercase, none, and uppercase. -->
+<!-- androidSelectedTabHighlightColorandroid specific property (corresponding CSS property android-selected-tab-highlight-color) - Sets the underline color of the tabs in Android. -->
+    <StackLayout *tabItem = "{title: 'today'}">
+        <router-outlet name = 'today'></router-outlet>
+    </StackLayout>
+    <StackLayout *tabItem = "{title: 'current-challenge'}">
+        <router-outlet  name = "CurrentChallenge"></router-outlet>
+    </StackLayout>
+
+</TabView>
